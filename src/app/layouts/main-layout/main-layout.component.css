@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+nz-header {
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+}
+  
+.app-layout {
+  height: 100vh;
+}
+
+  nz-content {
+    margin: 24px;
+  }
+  
+  .inner-content {
+    padding: 24px;
+    background: #fff;
+    height: 100%;
+  }
+  
